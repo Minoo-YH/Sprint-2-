@@ -61,23 +61,21 @@
 Ability to work independently while staying aligned with team goals
 
 - **Areas for Improvement**  
-  - I want to extend the AI integration by connecting it with the database so users can have stored chat history and personalized AI interactions.
-  - I need to plan and design the backend architecture for upcoming features such as messaging, notifications, and the rating system.
-  - Improve coordination with the frontend team to ensure smooth integration of new endpoints and data structures.
-  - Add list of all users for admin panel
+  - Want to extend the AI integration by connecting it with the database so users can have stored chat history and personalized AI interactions.
+  - Need to plan and design the backend architecture for upcoming features such as messaging, notifications, and the rating system.
+  - Improve coordination with the frontend team to ensure smooth integration of frontend and backend
+  - Add new endpoint with list of all users for admin panel
 
 - **Action Plan**  
   - Implement a database structure for AI chat history and link it to user accounts.
   - Research and design the backend logic for real‑time messaging and notification systems, including choosing the right technologies (e.g., WebSockets, event emitters).
   - Prepare the backend foundation for the rating system, including schema design and validation rules.
   - Schedule regular syncs with the frontend developer to align API responses, data formats, and integration steps.
-  - Gradually improve documentation and add inline comments for complex validation, filtering, and middleware logic.
 
 ---
 
 ### 5. Additional Notes
 During this sprint, I contributed significantly to building the backend foundation: 
-  - Connected backend to MongoDB
   - Implemented full authentication (register, login, user info, edit, delete, password change)
   - Built the entire posts system (CRUD, filtering, sorting, pagination, image upload)
   - Added backend validation for all user and post fields
