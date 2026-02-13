@@ -9,43 +9,43 @@
 
 
 - **Does the code meet the requirements?**
-  - [V] Does it implement all specified features you were responsible for?  
+  - [x] Does it implement all specified features you were responsible for?  
   I implemented all the backend features assigned to me: full authentication flow, user management, post creation/editing/deleting, filtering/sorting/pagination, location validation, and the AI endpoint. All endpoints were tested in Postman to ensure correct behavior.
-  - [V] Are edge cases handled (e.g., invalid data, duplicates)?  
+  - [x] Are edge cases handled (e.g., invalid data, duplicates)?  
   I added backend validation for email format, password length, age verification, phone number format, and location matching. Protected routes ensure only authorized users can modify or delete posts.
-  - [V] Are there any bugs or unexpected behaviors?  
+  - [x] Are there any bugs or unexpected behaviors?  
   No major bugs were found during testing. Minor issues were fixed quickly during PR review.
 
 - **Integration**
-  - [V] Does your code work correctly with other parts of the application?  
-  - [V] Are inputs and outputs managed appropriately?  
+  - [x] Does your code work correctly with other parts of the application?  
+  - [x] Are inputs and outputs managed appropriately?  
   My endpoints integrate smoothly with the rest of the backend and are ready for frontend connection. Inputs and outputs follow a consistent structure, making it easier for the frontend team to consume the API.
 
 ---
 
 ### 2. Code Quality
 - **Readability**
-  - [V] Is your code easy to understand for other developers?  
-  - [V] Are variable and function names descriptive and meaningful?  
+  - [x] Is your code easy to understand for other developers?  
+  - [x] Are variable and function names descriptive and meaningful?  
   I used descriptive variable and function names, kept controllers clean, and separated logic into appropriate files. The structure follows common Express/MongoDB patterns.
 
 - **Reusability**
-  - [V] Can your code or parts of it be reused elsewhere in the application?  
-  - [V] Is logic modular and separated from unrelated concerns?  
+  - [x] Can your code or parts of it be reused elsewhere in the application?  
+  - [x] Is logic modular and separated from unrelated concerns?  
   Validation logic, middleware, and filtering/sorting functions are modular and reusable across different routes.
 
 - **Comments and Documentation**
-  - [V] Are there comments explaining complex logic?  
-  - [V] Is there documentation for how to use your code unit?  
+  - [x] Are there comments explaining complex logic?  
+  - [x] Is there documentation for how to use your code unit?  
   I added comments where logic is more complex (e.g., validation, filtering). The Postman collection also serves as documentation for how to use each endpoint.
 
 ---
 
 ### 3. Performance
 - **Efficiency**
-  - [V] Are there any unnecessary operations or performance bottlenecks?  
+  - [x] Are there any unnecessary operations or performance bottlenecks?  
   Queries are optimized using MongoDB filters and pagination. Sorting and filtering are handled server‑side to reduce unnecessary data transfer.
-  - [V] Is the code optimized for larger datasets or high traffic (if applicable)?  
+  - [x] Is the code optimized for larger datasets or high traffic (if applicable)?  
   The structure supports larger datasets thanks to pagination and indexed fields (e.g., user reference, category, location).
 
 ---
@@ -88,7 +88,7 @@ During this sprint, I contributed significantly to building the backend foundati
 
 This sprint helped me grow in backend architecture, validation, and AI integration. I’m confident that the backend is now stable and ready for frontend connection.
 
-[Project API - Run results](postman/Project_API.postman_test_run.json)
+[Project API - Run results](postman/Project%20API.postman_test_run.json)
 
 ![Screenshot](postman/ask_ai.png)
 
