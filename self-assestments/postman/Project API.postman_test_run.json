@@ -1,0 +1,308 @@
+{
+	"id": "b0573420-aa7a-473e-bbb1-8be005972daf",
+	"name": "Project API",
+	"timestamp": "2026-02-13T12:58:31.972Z",
+	"collection_id": "31421668-2a77a8b9-5427-4ce5-aa23-6e2fa1b01200",
+	"folder_id": 0,
+	"environment_id": "31421668-0ccd8662-e81e-4807-bbd5-d0bab13e17b7",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2026-02-13T12:58:25.982Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "eba25fcb-d9a0-4e93-9331-694d58d9c802",
+			"name": "Login",
+			"url": "http://localhost:5000/auth/login",
+			"time": 109,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				109
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a203fa2a-d605-443b-9c9c-674a8a06313b",
+			"name": "Get user info",
+			"url": "http://localhost:5000/auth/userinfo",
+			"time": 38,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				38
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a2e1c2fc-2324-4102-8f8e-2c49151ddc8c",
+			"name": "Edit user info",
+			"url": "http://localhost:5000/auth/edit",
+			"time": 28,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				28
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1078b863-a3da-43ea-b2e1-0caeba1f5627",
+			"name": "Edit user password",
+			"url": "http://localhost:5000/auth/change-password",
+			"time": 247,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				247
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0a31970e-fc60-45aa-87ef-6ce2944eddbc",
+			"name": "Delete user",
+			"url": "http://localhost:5000/auth/delete",
+			"time": 53,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				53
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "859ab9f8-7e12-43ad-ab20-3c86d42c9b1e",
+			"name": "Locations",
+			"url": "http://localhost:5000/api/locations",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3dc4f36d-87af-4a96-9db6-3203f145a41c",
+			"name": "Get All Posts",
+			"url": "http://localhost:5000/posts",
+			"time": 47,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				47
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2534f2dd-6f87-4015-b2eb-ee01b194674f",
+			"name": "Get Posts by user ID",
+			"url": "http://localhost:5000/posts/user/69836f6ec31328220e9a4800",
+			"time": 49,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				49
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bb084f80-0b63-4654-acb7-ef789e2cec80",
+			"name": "Get Posts by ID",
+			"url": "http://localhost:5000/posts/698b089fbe0875741ee600ac",
+			"time": 29,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				29
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5948792c-468e-42ab-b31e-c56842590c1f",
+			"name": "Create Posts",
+			"url": "http://localhost:5000/posts",
+			"time": 47,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				47
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "99354d2d-b29a-4840-ad92-14301eb4f2ea",
+			"name": "Edit Post by ID",
+			"url": "http://localhost:5000/posts/698f1c6ae8cf38a40f9109b5",
+			"time": 47,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				47
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e8918948-422b-4688-91af-c702148f00c8",
+			"name": "Delete Post by ID",
+			"url": "http://localhost:5000/posts/698f1c6ae8cf38a40f9109b5",
+			"time": 33,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				33
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bbfa2ddf-5cc3-40bd-866a-c01125bff3e5",
+			"name": "AI ask",
+			"url": "http://localhost:5000/ai/ask",
+			"time": 3736,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3736
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 4466,
+	"collection": {
+		"requests": [
+			{
+				"id": "eba25fcb-d9a0-4e93-9331-694d58d9c802",
+				"method": "POST"
+			},
+			{
+				"id": "a203fa2a-d605-443b-9c9c-674a8a06313b",
+				"method": "GET"
+			},
+			{
+				"id": "a2e1c2fc-2324-4102-8f8e-2c49151ddc8c",
+				"method": "PUT"
+			},
+			{
+				"id": "1078b863-a3da-43ea-b2e1-0caeba1f5627",
+				"method": "PUT"
+			},
+			{
+				"id": "0a31970e-fc60-45aa-87ef-6ce2944eddbc",
+				"method": "DELETE"
+			},
+			{
+				"id": "859ab9f8-7e12-43ad-ab20-3c86d42c9b1e",
+				"method": "GET"
+			},
+			{
+				"id": "3dc4f36d-87af-4a96-9db6-3203f145a41c",
+				"method": "GET"
+			},
+			{
+				"id": "2534f2dd-6f87-4015-b2eb-ee01b194674f",
+				"method": "GET"
+			},
+			{
+				"id": "bb084f80-0b63-4654-acb7-ef789e2cec80",
+				"method": "GET"
+			},
+			{
+				"id": "5948792c-468e-42ab-b31e-c56842590c1f",
+				"method": "POST"
+			},
+			{
+				"id": "99354d2d-b29a-4840-ad92-14301eb4f2ea",
+				"method": "PUT"
+			},
+			{
+				"id": "e8918948-422b-4688-91af-c702148f00c8",
+				"method": "DELETE"
+			},
+			{
+				"id": "bbfa2ddf-5cc3-40bd-866a-c01125bff3e5",
+				"method": "POST"
+			}
+		]
+	}
+}
