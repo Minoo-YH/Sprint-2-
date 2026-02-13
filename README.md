@@ -41,7 +41,7 @@ This document summarizes **Sprint 2** for our Scrum project, including the team 
 
 ### Main Team Repository
 
-- **Team Repo:** _[https://github.com/MiksuNy/web-project]_
+- **You can find Front-End Code and Back-End Code in our Team Repo:** _[https://github.com/MiksuNy/web-project]_
 
 ### Project Board
 
